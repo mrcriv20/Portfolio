@@ -1,0 +1,25 @@
+<article class="case-card" [class.case-card--large]="large" [routerLink]="['/work', study.slug]">
+  <div class="case-card__image-wrap">
+    <div class="case-card__image" [style.background-color]="study.accentColor + '18'">
+      <div class="case-card__image-placeholder">
+        <span class="case-card__initials">{{ study.title | slice:0:2 }}</span>
+      </div>
+    </div>
+    <div class="case-card__overlay"></div>
+  </div>
+  <div class="case-card__content">
+    <div class="case-card__meta">
+      <span class="label">{{ study.year }}</span>
+      <span class="case-card__category">{{ study.category }}</span>
+    </div>
+    <h3 class="case-card__title display-3">{{ study.title }}</h3>
+    <p class="case-card__tagline">{{ study.tagline }}</p>
+    <div class="case-card__tags">
+      <span class="case-card__tag" *ngFor="let tag of study.tags | slice:0:3">{{ tag }}</span>
+    </div>
+    <div class="case-card__cta">
+      <span>View Case Study</span>
+      <span class="arrow">&#8594;</span>
+    </div>
+  </div>
+</article>

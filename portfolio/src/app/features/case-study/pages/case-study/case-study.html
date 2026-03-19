@@ -1,0 +1,121 @@
+<div class="cs-page" *ngIf="study; else notFoundTpl">
+
+  <!-- HERO BAND -->
+  <section class="cs-hero" [style.--accent]="study.accentColor">
+    <div class="cs-hero__bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="cs-hero__back">
+        <a routerLink="/work" class="btn btn--text">
+          <span class="arrow" style="transform:rotate(180deg)">&#8594;</span>
+          All work
+        </a>
+      </div>
+      <div class="cs-hero__content" appFadeUp>
+        <div class="cs-hero__meta">
+          <span class="label">{{ study.year }}</span>
+          <span class="cs-hero__sep">·</span>
+          <span class="cs-hero__category">{{ study.category }}</span>
+        </div>
+        <h1 class="display-1 cs-hero__title">{{ study.title }}</h1>
+        <p class="body-lg cs-hero__tagline">{{ study.tagline }}</p>
+        <div class="cs-hero__roles">
+          <span class="cs-hero__role" *ngFor="let r of study.role">{{ r }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METRICS -->
+  <section class="cs-metrics section">
+    <div class="container">
+      <app-metrics-row [metrics]="study.metrics" appFadeUp></app-metrics-row>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="cs-body section">
+    <div class="container">
+      <div class="cs-body__layout">
+
+        <!-- SIDEBAR -->
+        <aside class="cs-sidebar" appFadeUp>
+          <div class="cs-sidebar__block">
+            <span class="label">Client</span>
+            <p class="cs-sidebar__val">{{ study.client || study.title }}</p>
+          </div>
+          <div class="cs-sidebar__block">
+            <span class="label">Year</span>
+            <p class="cs-sidebar__val">{{ study.year }}</p>
+          </div>
+          <div class="cs-sidebar__block">
+            <span class="label">Role</span>
+            <p class="cs-sidebar__val" *ngFor="let r of study.role">{{ r }}</p>
+          </div>
+          <div class="cs-sidebar__block">
+            <span class="label">Tags</span>
+            <div class="cs-sidebar__tags">
+              <span class="case-tag" *ngFor="let tag of study.tags">{{ tag }}</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="cs-content">
+
+          <div class="cs-section" appFadeUp>
+            <span class="label">Overview</span>
+            <p *ngFor="let p of formatParagraphs(study.summary)" class="body-lg cs-para">{{ p }}</p>
+          </div>
+
+          <div class="cs-section" appFadeUp [appFadeUpDelay]="100">
+            <span class="label">The Problem</span>
+            <p *ngFor="let p of formatParagraphs(study.problem)" class="body-lg cs-para">{{ p }}</p>
+          </div>
+
+          <div class="cs-section" appFadeUp [appFadeUpDelay]="150">
+            <span class="label">Context</span>
+            <p *ngFor="let p of formatParagraphs(study.context)" class="body-lg cs-para">{{ p }}</p>
+          </div>
+
+          <div class="cs-section" appFadeUp [appFadeUpDelay]="200">
+            <span class="label">Approach</span>
+            <p *ngFor="let p of formatParagraphs(study.approach)" class="body-lg cs-para">{{ p }}</p>
+          </div>
+
+          <div class="cs-section cs-decisions" appFadeUp [appFadeUpDelay]="250">
+            <span class="label">Key Decisions</span>
+            <ul class="cs-decisions__list">
+              <li *ngFor="let d of study.keyDecisions; let i = index" class="cs-decisions__item">
+                <span class="cs-decisions__num">0{{ i + 1 }}</span>
+                <p class="cs-decisions__text">{{ d }}</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cs-section" appFadeUp [appFadeUpDelay]="300">
+            <span class="label">Outcome</span>
+            <p *ngFor="let p of formatParagraphs(study.outcome)" class="body-lg cs-para">{{ p }}</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEXT PROJECT -->
+  <section class="cs-next" *ngIf="nextStudy">
+    <div class="container">
+      <div class="cs-next__inner" appFadeUp>
+        <span class="label">Next Project</span>
+        <app-case-card [study]="nextStudy" [large]="true"></app-case-card>
+      </div>
+    </div>
+  </section>
+</div>
+
+<ng-template #notFoundTpl>
+  <div class="not-found container section">
+    <h1 class="display-2">Project not found.</h1>
+    <a routerLink="/work" class="btn btn--primary" style="margin-top:2rem">Back to work</a>
+  </div>
+</ng-template>

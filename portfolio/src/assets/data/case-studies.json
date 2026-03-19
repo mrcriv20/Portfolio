@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "slug": "clock-in",
+    "title": "Clock:In",
+    "tagline": "Redesigning workforce scheduling from the ground up",
+    "client": "Clock:In",
+    "year": "2022",
+    "category": "Product Design · Design System · UX Strategy",
+    "role": ["Lead Product Designer", "UX Strategist", "Design Systems Architect"],
+    "heroImage": "/assets/images/clockin-hero.jpg",
+    "thumbnail": "/assets/images/clockin-thumb.jpg",
+    "accentColor": "#4F46E5",
+    "summary": "Clock:In is a workforce scheduling platform built for teams that can't afford downtime. I led the end-to-end product design — from discovery through design system — turning a fragmented scheduling workflow into a cohesive, enterprise-grade experience used by hundreds of shift managers.",
+    "problem": "Shift-based businesses were running scheduling on spreadsheets, text messages, and tribal knowledge. Managers spent 4–6 hours per week just coordinating who was working when — time stolen from operations, culture, and growth. Clock:In needed to eliminate that friction without introducing complexity.",
+    "context": "The team had attempted two previous versions of the scheduler. Both failed adoption because they over-engineered the data model while under-investing in the actual scheduling experience. I was brought in to reset the product direction and rebuild trust with operations managers who had been burned before.",
+    "approach": "I started with a two-week discovery sprint — shadowing four shift managers across different industries, mapping their mental models of time, teams, and coverage. What I found wasn't a scheduling problem. It was a communication problem dressed up as a scheduling problem.\n\nFrom there, I defined a product north star: scheduling should feel like texting your team, not filing a report. Every design decision flowed from that principle.\n\nI built a component-level design system before touching a single screen — ensuring visual consistency, interaction parity, and developer handoff clarity from day one. The system included 60+ components with documented states, variants, and usage guidelines.",
+    "keyDecisions": [
+      "Chose a week-by-week view over month view as the default — matching how managers actually think about staffing, not how calendars are built",
+      "Removed role-based permissions from v1 scope — reduced complexity by 40% and increased early adoption by shipping a focused core",
+      "Built the design system component-first, not page-first — enabling faster iteration and consistent developer handoff across 3 engineers"
+    ],
+    "outcome": "The redesigned Clock:In reduced average scheduling time from 4.5 hours to under 45 minutes per week. Manager satisfaction scores increased 61% in the first quarter post-launch. The design system I built became the foundation for two new product lines.",
+    "metrics": [
+      { "value": "83%", "label": "Reduction in scheduling time" },
+      { "value": "61%", "label": "Increase in manager satisfaction" },
+      { "value": "60+", "label": "Component design system" }
+    ],
+    "images": [
+      "/assets/images/clockin-1.jpg",
+      "/assets/images/clockin-2.jpg",
+      "/assets/images/clockin-3.jpg"
+    ],
+    "tags": ["Design Systems", "Enterprise UX", "Scheduling", "B2B SaaS"],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "slug": "constant-advancement",
+    "title": "Constant Advancement",
+    "tagline": "A personnel platform built for operational clarity",
+    "client": "Constant Advancement",
+    "year": "2021",
+    "category": "Product Design · Enterprise Platform · Systems Thinking",
+    "role": ["Lead Product Designer", "UX Architect", "Brand System Designer"],
+    "heroImage": "/assets/images/ca-hero.jpg",
+    "thumbnail": "/assets/images/ca-thumb.jpg",
+    "accentColor": "#059669",
+    "summary": "Constant Advancement is an all-encompassing personnel management platform — built for organizations that needed to consolidate HR, payroll, document management, and applicant intake into a single, coherent system. I led design from brief through first-phase delivery, establishing both the product architecture and the visual language.",
+    "problem": "The organization was managing its people across five disconnected tools. HR lived in spreadsheets. Payroll ran through a legacy vendor. Documents were stored in email threads. Applicants were tracked in a shared notes doc. The cost wasn't just inefficiency — it was data integrity, compliance risk, and the slow erosion of team trust in systems that didn't work.",
+    "context": "This was a greenfield platform with a clear mandate: consolidate everything. The challenge was scope — personnel management is genuinely complex, and building the wrong thing first would set the wrong foundation. I had to make strategic decisions about what phase one needed to nail before anything else could follow.",
+    "approach": "I worked directly with the client to define requirements before touching design tools. That brief-first approach was non-negotiable — too many enterprise projects fail because design starts before the problem is actually defined.\n\nFrom the brief, I identified the four core workflows that needed to land in phase one: employee profiles, document storage, payroll visibility, and applicant intake. Everything else was deferred. Deliberately.\n\nI designed the information architecture to support scale — anticipating the data relationships between employees, documents, and payroll that would matter in phase two. The visual design tied into the client's existing brand: confident, institutional, reliable.",
+    "keyDecisions": [
+      "Scoped phase one to four workflows, not fifteen — gave the team a shippable product and the client a foundation they could trust",
+      "Designed the data model to support document versioning before it was requested — prevented a painful rebuild in phase two",
+      "Anchored visual design to client brand guidelines rather than starting fresh — created immediate organizational buy-in"
+    ],
+    "outcome": "Phase one delivered on all client-defined goals. The platform consolidated the four core workflows into a single, coherent interface. The client reported immediate reduction in onboarding time and a material improvement in document compliance. Design assets were handed off with full component documentation for the development team.",
+    "metrics": [
+      { "value": "4", "label": "Core workflows unified in phase one" },
+      { "value": "100%", "label": "Phase one goals met on schedule" },
+      { "value": "1", "label": "Platform replaced 5 disconnected tools" }
+    ],
+    "images": [
+      "/assets/images/ca-1.jpg",
+      "/assets/images/ca-2.jpg",
+      "/assets/images/ca-3.jpg"
+    ],
+    "tags": ["Enterprise", "HR Platform", "Systems Design", "B2B"],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "slug": "mpg-design-firm",
+    "title": "MPG Design Firm",
+    "tagline": "Brand identity and digital presence for a federal design agency",
+    "client": "MPG Design Firm",
+    "year": "2019",
+    "category": "Brand Identity · Content Strategy · Web Development",
+    "role": ["Lead Designer", "Content Strategist", "Front-End Developer"],
+    "heroImage": "/assets/images/mpg-hero.jpg",
+    "thumbnail": "/assets/images/mpg-thumb.jpg",
+    "accentColor": "#DC2626",
+    "summary": "MPG Design Firm is a US Government design agency that needed a brand identity and digital presence that matched the quality of the work they were delivering for federal clients. I led strategy, design, and development — building a system that communicated authority and craft in equal measure.",
+    "problem": "A design firm without a strong design presence is a contradiction. MPG was delivering high-caliber work for federal agencies, but their own brand and website didn't reflect that capability. Prospective clients couldn't see the quality of the work before they had a conversation. That gap was costing them opportunities.",
+    "context": "Government design is a distinct discipline — it operates under constraints of accessibility, institutional trust, and compliance that commercial design doesn't face. The brand had to feel authoritative without feeling cold, and the web presence had to perform across a wide range of government network environments.",
+    "approach": "I started with content strategy — defining the messages that needed to land before deciding how they'd look. The hierarchy was: credibility first, capability second, personality third.\n\nThe brand system was built around two anchors: Public Sans Bold (the US Web Design System's recommended typeface) as a signal of federal alignment, and Pantone 186 C — a specific, institutional red that carries weight without aggression.\n\nEvery design decision was cross-referenced against WCAG 2.1 AA standards. Accessibility wasn't a checklist item — it was a design constraint that shaped the typography scale, color ratios, and interaction patterns.",
+    "keyDecisions": [
+      "Selected Public Sans Bold to signal alignment with US Government web standards — an immediate trust signal for federal clients",
+      "Used Pantone 186 C as the brand accent — specific enough to feel intentional, institutional enough to feel trusted",
+      "Led with content strategy before visual design — prevented scope creep and ensured every page had a clear job to do"
+    ],
+    "outcome": "The new brand and digital presence positioned MPG as a credible, capable partner for federal design work. The website passed Section 508 compliance on first audit. The brand system was documented for internal use and adapted across print and digital deliverables.",
+    "metrics": [
+      { "value": "508", "label": "Section compliance, first audit pass" },
+      { "value": "AA", "label": "WCAG 2.1 accessibility standard" },
+      { "value": "3", "label": "Disciplines: Strategy, Design, Dev" }
+    ],
+    "images": [
+      "/assets/images/mpg-1.jpg",
+      "/assets/images/mpg-2.jpg",
+      "/assets/images/mpg-3.jpg"
+    ],
+    "tags": ["Brand Identity", "Government", "Content Strategy", "Accessibility"],
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": 4,
+    "slug": "global-scout",
+    "title": "Global Scout",
+    "tagline": "Rethinking how intelligence professionals navigate complex data",
+    "client": "Global Scout",
+    "year": "2020",
+    "category": "UX Design · Data Visualization · Research",
+    "role": ["Senior UX Designer", "Researcher", "Interaction Designer"],
+    "heroImage": "/assets/images/gs-hero.jpg",
+    "thumbnail": "/assets/images/gs-thumb.jpg",
+    "accentColor": "#7C3AED",
+    "summary": "Global Scout is a geospatial intelligence platform used by analysts who need to find signal in complex, multi-source data environments. I redesigned the core search and navigation experience — reducing cognitive load for users who are making consequential decisions under pressure.",
+    "problem": "Analysts were working with a tool that had been built by engineers for engineers. The data model was technically sound. The interface was not. Critical information was buried four levels deep. Search was keyword-only. And the visual hierarchy communicated everything with equal emphasis — which meant nothing stood out when it needed to.",
+    "context": "This was a domain where UX failures have real-world consequences. Users weren't frustrated by bad design — they were making worse decisions because of it. That raised the stakes of every design choice and required deep investment in understanding how expert users actually think and work.",
+    "approach": "I conducted six contextual inquiry sessions with active analysts — observing their workflows, their workarounds, and the moments where the tool broke down. The patterns were clear: users needed faster access to recent work, better visual differentiation between data types, and search that understood intent, not just keywords.\n\nI redesigned the navigation architecture from the ground up, introduced a persistent recent-activity panel, and rebuilt the search experience around filters-first rather than keywords-first. Every change was validated with the analyst team before moving to development.",
+    "keyDecisions": [
+      "Rebuilt navigation from a flat list to a contextual hierarchy — reduced time-to-information by 60% in usability testing",
+      "Introduced visual encoding for data source types — gave analysts immediate context without requiring a click",
+      "Prioritized recent-activity access over comprehensive navigation — matched how expert users actually work"
+    ],
+    "outcome": "The redesigned navigation reduced average time-to-information by 60% in usability testing. Analysts reported significantly lower cognitive load in post-study interviews. The new search architecture was adopted as the standard pattern across two additional platform modules.",
+    "metrics": [
+      { "value": "60%", "label": "Reduction in time-to-information" },
+      { "value": "6", "label": "Contextual inquiry sessions" },
+      { "value": "2", "label": "Additional modules adopted the pattern" }
+    ],
+    "images": [
+      "/assets/images/gs-1.jpg",
+      "/assets/images/gs-2.jpg",
+      "/assets/images/gs-3.jpg"
+    ],
+    "tags": ["Data Visualization", "Enterprise", "Research", "Geospatial"],
+    "featured": false,
+    "order": 4
+  }
+]

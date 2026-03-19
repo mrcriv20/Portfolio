@@ -1,0 +1,30 @@
+<div class="work-page">
+  <!-- PAGE HEADER -->
+  <section class="page-header section">
+    <div class="container">
+      <div class="page-header__inner" appFadeUp>
+        <span class="label">Work</span>
+        <h1 class="display-1 page-header__title">Designed with intent.<br><em>Shipped with care.</em></h1>
+        <p class="body-lg page-header__sub">
+          A curated selection of product work — each project led from ambiguity to outcome.
+          No concept work. No generic templates. These are real products with real constraints.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT GRID -->
+  <section class="section work-grid">
+    <div class="container">
+      <div class="work-grid__items">
+        <app-case-card
+          *ngFor="let study of studies; let i = index"
+          [study]="study"
+          [large]="i === 0"
+          appFadeUp
+          [appFadeUpDelay]="i * 100"
+        ></app-case-card>
+      </div>
+    </div>
+  </section>
+</div>

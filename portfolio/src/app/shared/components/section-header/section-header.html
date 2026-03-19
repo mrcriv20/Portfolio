@@ -1,0 +1,6 @@
+<div class="section-header" [class.section-header--center]="align === 'center'">
+  <span class="label" *ngIf="label">{{ label }}</span>
+  <span class="accent-line" *ngIf="!label"></span>
+  <h2 class="section-header__title display-2">{{ title }}</h2>
+  <p class="section-header__subtitle body-lg" *ngIf="subtitle">{{ subtitle }}</p>
+</div>
