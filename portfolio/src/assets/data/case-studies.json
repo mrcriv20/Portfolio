@@ -8,8 +8,8 @@
     "year": "2021 – 2022",
     "category": "Product Design · Content Strategy · Development",
     "role": ["Lead Product Designer", "Content Strategist", "Developer"],
-    "heroImage": "/assets/images/clockin-hero.jpg",
-    "thumbnail": "/assets/images/clockin-thumb.jpg",
+    "heroImage": "assets/images/clockin-hero.jpg",
+    "thumbnail": "assets/images/clockin-thumb.jpg",
     "accentColor": "#df0015",
     "summary": "Clock:In is a complete, web-based redesign of a legacy Lotus Notes scheduling application used by a US Government organization. As both the designer and one of the end users, I designed an end-to-end system covering PTO tracking, training records, office contacts, and team org structure — shipping the initial version in January 2017 and continuing to iterate based on ongoing user feedback.",
     "problem": "The organization's scheduling and leave management lived inside Lotus Notes — an external application no one knew how to update, siloed from the web, and requiring far too many steps to perform basic tasks. Employees spanning over a dozen different offices needed a unified way to request leave, validate timesheets, and manage scheduling, but the existing system created friction at every step.",
@@ -27,9 +27,9 @@
       { "value": "3", "label": "Services: Strategy, Design, Dev" }
     ],
     "images": [
-      "/assets/images/clockin-1.jpg",
-      "/assets/images/clockin-2.jpg",
-      "/assets/images/clockin-3.jpg"
+      "assets/images/clockin-1.jpg",
+      "assets/images/clockin-2.jpg",
+      "assets/images/clockin-3.jpg"
     ],
     "tags": ["Product Design", "Government", "Scheduling", "Web Application"],
     "featured": true,
@@ -44,8 +44,8 @@
     "year": "2019",
     "category": "Product Design · Content Strategy · User Experience",
     "role": ["Lead Product Designer", "UX Strategist", "Brand Designer"],
-    "heroImage": "/assets/images/ca-hero.jpg",
-    "thumbnail": "/assets/images/ca-thumb.jpg",
+    "heroImage": "assets/images/ca-hero.jpg",
+    "thumbnail": "assets/images/ca-thumb.jpg",
     "accentColor": "#ffcf00",
     "summary": "Constant Advancement is a custom web application built to handle all things personnel-related for the company — covering employee management, document storage, payroll, and applicant intake in one cohesive platform. I led design from requirements brief through first-phase delivery, working directly with the client to define scope, establish personas, and build a visual language tied to their existing brand.",
     "problem": "The organization was managing its people across disconnected tools with no central source of truth. Personnel data, documents, payroll, and hiring pipelines lived in separate places. The cost wasn't just friction — it was data integrity and the slow erosion of trust in systems that couldn't keep up with how the company actually operated.",
@@ -63,9 +63,9 @@
       { "value": "100%", "label": "Phase one goals met" }
     ],
     "images": [
-      "/assets/images/ca-1.jpg",
-      "/assets/images/ca-2.jpg",
-      "/assets/images/ca-3.jpg"
+      "assets/images/ca-1.jpg",
+      "assets/images/ca-2.jpg",
+      "assets/images/ca-3.jpg"
     ],
     "tags": ["Product Design", "Enterprise", "HR Platform", "UX Strategy"],
     "featured": true,
@@ -80,8 +80,8 @@
     "year": "2019",
     "category": "Brand Identity · Content Strategy · Web Development",
     "role": ["Lead Designer", "Art Director", "Content Strategist"],
-    "heroImage": "/assets/images/mpg-hero.jpg",
-    "thumbnail": "/assets/images/mpg-thumb.jpg",
+    "heroImage": "assets/images/mpg-hero.jpg",
+    "thumbnail": "assets/images/mpg-thumb.jpg",
     "accentColor": "#df0015",
     "summary": "MPG is a small design firm operating within a larger corporate conglomerate. I was tasked with the design, art direction, and content writing for the group — building a brand identity and digital presence that could represent their work credibly. Due to an NDA, the images and content shown use fictitious material and my own personal work in place of the actual client deliverables.",
     "problem": "A design firm without a strong design presence is a contradiction. MPG was delivering work for federal clients, but their own brand and digital identity didn't reflect the caliber of that work. There was no cohesive visual language, no clear content hierarchy, and no digital presence that could do the work of introducing the firm before a conversation happened.",
@@ -99,9 +99,9 @@
       { "value": "2019", "label": "Delivery year" }
     ],
     "images": [
-      "/assets/images/mpg-1.jpg",
-      "/assets/images/mpg-2.jpg",
-      "/assets/images/mpg-3.jpg"
+      "assets/images/mpg-1.jpg",
+      "assets/images/mpg-2.jpg",
+      "assets/images/mpg-3.jpg"
     ],
     "tags": ["Brand Identity", "Government", "Art Direction", "Content Strategy"],
     "featured": true,
@@ -116,8 +116,8 @@
     "year": "2021",
     "category": "Product Design · Cartography · Content Strategy · Development",
     "role": ["Lead Product Designer", "Cartographer", "Content Strategist"],
-    "heroImage": "/assets/images/gs-hero.jpg",
-    "thumbnail": "/assets/images/gs-thumb.jpg",
+    "heroImage": "assets/images/gs-hero.jpg",
+    "thumbnail": "assets/images/gs-thumb.jpg",
     "accentColor": "#ffcf00",
     "summary": "Global Scout is a map-based application that aggregates data from news sources and reporting to give users a single destination for country background information, current events, and multimedia. I led design, cartography, content strategy, and development for the platform. Content shown uses published articles from the Washington Post, World Factbook, and Wikipedia in place of restricted material.",
     "problem": "Users needed a way to quickly orient themselves on a given country — pulling together background context, live reporting, and multimedia without jumping between disparate sources. The challenge was building an interface around a map canvas that remained informative without becoming overwhelming.",
@@ -135,9 +135,9 @@
       { "value": "2021", "label": "Delivery year" }
     ],
     "images": [
-      "/assets/images/gs-1.jpg",
-      "/assets/images/gs-2.jpg",
-      "/assets/images/gs-3.jpg"
+      "assets/images/gs-1.jpg",
+      "assets/images/gs-2.jpg",
+      "assets/images/gs-3.jpg"
     ],
     "tags": ["Product Design", "Cartography", "Government", "Data Visualization"],
     "featured": false,
@@ -152,8 +152,8 @@
     "year": "2025",
     "category": "Product Design · Product Management · Frontend Development",
     "role": ["Product Designer", "Product Manager", "Creative Director", "Frontend Developer", "AI Prompt Engineer"],
-    "heroImage": "/assets/images/tillie-hero.jpg",
-    "thumbnail": "/assets/images/tillie-thumb.jpg",
+    "heroImage": "assets/images/tillie-hero.jpg",
+    "thumbnail": "assets/images/tillie-thumb.jpg",
     "accentColor": "#f28915",
     "summary": "Tillie is a modern, browser-based Point of Sale system designed for independent grocery markets and specialty food retailers. It simplifies daily retail operations through intuitive UX, robust inventory management, AI-assisted product ordering, and integrated analytics. I wore multiple hats on this project — leading product design, product management, creative direction, frontend development, and AI prompt engineering.",
     "problem": "Small retailers often rely on outdated, expensive, or fragmented POS systems that fail to connect inventory control, vendor management, and sales analytics into a cohesive experience. Store owners needed a simple, touch-optimized POS that works on tablets and desktops, real-time inventory visibility to prevent over and under-stocking, integrated reporting for smarter decisions, and a system that scales affordably without enterprise-level complexity.",
@@ -172,9 +172,9 @@
       { "value": "5", "label": "Core modules shipped in v1" }
     ],
     "images": [
-      "/assets/images/tillie-1.jpg",
-      "/assets/images/tillie-2.jpg",
-      "/assets/images/tillie-3.jpg"
+      "assets/images/tillie-1.jpg",
+      "assets/images/tillie-2.jpg",
+      "assets/images/tillie-3.jpg"
     ],
     "tags": ["Product Design", "POS", "Retail Tech", "AI", "SaaS"],
     "featured": true,

@@ -42,7 +42,7 @@ export class CaseStudyService {
   getAll(): Observable<CaseStudy[]> {
     if (!this.cache$) {
       this.cache$ = this.http
-        .get<CaseStudy[]>('/assets/data/case-studies.json')
+        .get<CaseStudy[]>('assets/data/case-studies.json')
         .pipe(
           map(studies => [...studies].sort((a, b) => a.order - b.order)),
           shareReplay(1),
