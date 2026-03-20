@@ -1,0 +1,100 @@
+<div class="about-page">
+
+  <!-- BIO SECTION -->
+  <section class="section about-bio">
+    <div class="container">
+      <div class="about-bio__layout">
+        <div class="about-bio__left" appFadeUp>
+          <span class="label">About</span>
+          <h1 class="display-1 about-bio__title">
+            Product designer.<br>
+            <em>Design leader.</em><br>
+            Systems thinker.
+          </h1>
+        </div>
+        <div class="about-bio__right" appFadeUp [appFadeUpDelay]="150">
+          <p class="body-lg about-bio__para">
+            I'm Mike Crivellaro — a Lead Product Designer and Head of Design with over a decade of experience building
+            products that work at enterprise scale. I've designed for startups, government agencies, and growth-stage
+            companies — always at the intersection of aesthetics, systems thinking, and engineering pragmatism.
+          </p>
+          <p class="body-lg about-bio__para">
+            My work is defined by one question: what does this product need to be trusted? Not liked. Not admired.
+            Trusted — by the people who depend on it to do their jobs.
+          </p>
+          <p class="body-lg about-bio__para">
+            I work best in complex problem spaces where the constraints are real, the stakes are high, and the
+            definition of success requires more than good-looking screens. That includes federal government systems,
+            HR and workforce platforms, and any product where failure has consequences.
+          </p>
+          <div class="about-bio__actions">
+            <a routerLink="/work" class="btn btn--primary">See the work</a>
+            <a routerLink="/contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="section about-principles">
+    <div class="container">
+      <app-section-header
+        label="How I work"
+        title="Four principles I design by"
+        appFadeUp
+      ></app-section-header>
+      <div class="about-principles__grid">
+        <div
+          class="principle"
+          *ngFor="let p of principles; let i = index"
+          appFadeUp
+          [appFadeUpDelay]="i * 100"
+        >
+          <span class="principle__num">{{ p.number }}</span>
+          <h3 class="principle__title">{{ p.title }}</h3>
+          <p class="principle__body">{{ p.body }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section about-exp">
+    <div class="container">
+      <app-section-header
+        label="Experience"
+        title="A decade of design leadership"
+        appFadeUp
+      ></app-section-header>
+      <div class="about-exp__list">
+        <div
+          class="exp-item"
+          *ngFor="let e of experience; let i = index"
+          appFadeUp
+          [appFadeUpDelay]="i * 100"
+        >
+          <div class="exp-item__meta">
+            <span class="exp-item__years">{{ e.years }}</span>
+          </div>
+          <div class="exp-item__content">
+            <h3 class="exp-item__role">{{ e.role }}</h3>
+            <p class="exp-item__company">{{ e.company }}</p>
+            <p class="exp-item__desc">{{ e.desc }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="about-cta section">
+    <div class="container">
+      <div class="about-cta__inner" appFadeUp>
+        <p class="display-3">Ready to work together?</p>
+        <a routerLink="/contact" class="btn btn--primary">Say hello</a>
+      </div>
+    </div>
+  </section>
+
+</div>

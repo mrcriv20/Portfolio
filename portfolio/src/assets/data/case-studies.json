@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "slug": "clock-in",
+    "title": "Clock:In",
+    "tagline": "End-to-end scheduling system for PTO, training, org structure, and office contacts",
+    "client": "US Government",
+    "year": "2021 – 2022",
+    "category": "Product Design · Content Strategy · Development",
+    "role": ["Lead Product Designer", "Content Strategist", "Developer"],
+    "heroImage": "/assets/images/clockin-hero.jpg",
+    "thumbnail": "/assets/images/clockin-thumb.jpg",
+    "accentColor": "#df0015",
+    "summary": "Clock:In is a complete, web-based redesign of a legacy Lotus Notes scheduling application used by a US Government organization. As both the designer and one of the end users, I designed an end-to-end system covering PTO tracking, training records, office contacts, and team org structure — shipping the initial version in January 2017 and continuing to iterate based on ongoing user feedback.",
+    "problem": "The organization's scheduling and leave management lived inside Lotus Notes — an external application no one knew how to update, siloed from the web, and requiring far too many steps to perform basic tasks. Employees spanning over a dozen different offices needed a unified way to request leave, validate timesheets, and manage scheduling, but the existing system created friction at every step.",
+    "context": "Being both the designer and an end user gave me a uniquely informed starting point. I understood firsthand where the old Lotus Notes tool failed — not just from interviews, but from lived daily frustration. That insider perspective shaped how I framed the research and how I prioritized what to fix first.",
+    "approach": "I conducted user research with officers and managers who would be the primary users of the application, using my own experience to validate and sharpen what I was hearing. From that research, I identified the core goals: reduce the steps required to request and approve time, modernize the platform into the browser, consolidate records across all offices, and develop a timesheet report that let users validate entries and review balances at a glance.\n\nI drew inspiration from existing scheduling applications rather than reinventing from scratch — the goal was a tool that felt familiar and intuitive to people who already understood how scheduling worked, adapted to the specific constraints and culture of the organization.",
+    "keyDecisions": [
+      "Moved from Lotus Notes to a browser-based application — eliminated the dependency on an unmaintained external system and opened the door to real iterative improvement",
+      "Designed the Timesheet Report as a parallel validation tool — what was once a painful loop through individual entries became a single-screen comparison",
+      "Built for multi-office administration from the start — the architecture supports various admin roles managing requests across a dozen-plus locations"
+    ],
+    "outcome": "Clock:In became integral to the daily lives of producers and managers across the organization. Submitting requests dropped from a multi-step process to a straightforward interaction. Timesheet validation — formerly a repetitive, entry-by-entry process — now takes seconds with the Report view. Since the initial launch, the platform has continued to grow: recent additions include Office Schedule Overviews, Weekly Leave Reports, and Shiftwork Reports for administrators.",
+    "metrics": [
+      { "value": "2017", "label": "Initial launch year" },
+      { "value": "12+", "label": "Offices supported" },
+      { "value": "3", "label": "Services: Strategy, Design, Dev" }
+    ],
+    "images": [
+      "/assets/images/clockin-1.jpg",
+      "/assets/images/clockin-2.jpg",
+      "/assets/images/clockin-3.jpg"
+    ],
+    "tags": ["Product Design", "Government", "Scheduling", "Web Application"],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "slug": "constant-advancement",
+    "title": "Constant Advancement",
+    "tagline": "An all-encompassing personnel management platform built around four core personas",
+    "client": "Constant Advancement",
+    "year": "2019",
+    "category": "Product Design · Content Strategy · User Experience",
+    "role": ["Lead Product Designer", "UX Strategist", "Brand Designer"],
+    "heroImage": "/assets/images/ca-hero.jpg",
+    "thumbnail": "/assets/images/ca-thumb.jpg",
+    "accentColor": "#ffcf00",
+    "summary": "Constant Advancement is a custom web application built to handle all things personnel-related for the company — covering employee management, document storage, payroll, and applicant intake in one cohesive platform. I led design from requirements brief through first-phase delivery, working directly with the client to define scope, establish personas, and build a visual language tied to their existing brand.",
+    "problem": "The organization was managing its people across disconnected tools with no central source of truth. Personnel data, documents, payroll, and hiring pipelines lived in separate places. The cost wasn't just friction — it was data integrity and the slow erosion of trust in systems that couldn't keep up with how the company actually operated.",
+    "context": "This was a greenfield platform with a clear mandate but a broad scope. Personnel management is genuinely complex, and building the wrong thing first would set the wrong foundation. My job was to help the client see what phase one needed to nail — and hold that line — before anything else followed.",
+    "approach": "I began by defining the requirements with the client directly, developing a project brief before touching any design tools. That brief-first discipline was non-negotiable on a project like this.\n\nFrom the brief, I identified four distinct personas whose needs had to drive the design decisions: the current CA employee, the management team (who handle all administration functions), the prospective CA employee, and the recently hired CA employee. Building from those personas kept scope decisions grounded in real user goals rather than feature requests.\n\nI sketched multiple views, defined the information architecture around the four core workflows, and established a visual style that tied back into the company's existing brand — giving the platform immediate organizational legitimacy.",
+    "keyDecisions": [
+      "Scoped phase one to four workflows — gave the team a shippable product and the client a foundation they could trust before expanding",
+      "Built four distinct personas before sketching a single screen — kept every design and scope decision anchored to a real user's actual goal",
+      "Anchored the visual design to the client's existing brand — created immediate internal buy-in and reduced back-and-forth on direction"
+    ],
+    "outcome": "Phase one delivered on all client-defined goals ahead of the final deadline. The platform unified the four core workflows into a single, coherent interface developed in an Agile environment. Design assets were handed off with full component documentation to support the development team through continued iteration.",
+    "metrics": [
+      { "value": "4", "label": "Core workflows unified in phase one" },
+      { "value": "4", "label": "User personas defined and validated" },
+      { "value": "100%", "label": "Phase one goals met" }
+    ],
+    "images": [
+      "/assets/images/ca-1.jpg",
+      "/assets/images/ca-2.jpg",
+      "/assets/images/ca-3.jpg"
+    ],
+    "tags": ["Product Design", "Enterprise", "HR Platform", "UX Strategy"],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "slug": "mpg-design-firm",
+    "title": "MPG Design Firm",
+    "tagline": "Brand identity, art direction, and web presence for an internal federal design group",
+    "client": "US Government",
+    "year": "2019",
+    "category": "Brand Identity · Content Strategy · Web Development",
+    "role": ["Lead Designer", "Art Director", "Content Strategist"],
+    "heroImage": "/assets/images/mpg-hero.jpg",
+    "thumbnail": "/assets/images/mpg-thumb.jpg",
+    "accentColor": "#df0015",
+    "summary": "MPG is a small design firm operating within a larger corporate conglomerate. I was tasked with the design, art direction, and content writing for the group — building a brand identity and digital presence that could represent their work credibly. Due to an NDA, the images and content shown use fictitious material and my own personal work in place of the actual client deliverables.",
+    "problem": "A design firm without a strong design presence is a contradiction. MPG was delivering work for federal clients, but their own brand and digital identity didn't reflect the caliber of that work. There was no cohesive visual language, no clear content hierarchy, and no digital presence that could do the work of introducing the firm before a conversation happened.",
+    "context": "Government design operates under constraints that commercial work doesn't face — accessibility compliance, institutional trust signals, and the need to feel authoritative without feeling cold. The brand had to work within that environment while still standing out enough to be memorable.",
+    "approach": "I started with content strategy — defining what each page needed to communicate before deciding how it would look. The hierarchy was clear: credibility first, capability second, personality third.\n\nThe brand system was anchored by two deliberate choices: Public Sans Bold as a nod to federal web standards (the US Web Design System's recommended typeface), and Pantone 186 C — a specific, institutional red that carries weight without aggression. Every decision was made to feel intentional, not decorative.\n\nAccessibility wasn't treated as a checklist — it was a design constraint that shaped the typography scale, color ratios, and interaction patterns from the start.",
+    "keyDecisions": [
+      "Used Public Sans Bold as the headline face — a direct signal of alignment with US Government web standards, which carries immediate trust for federal clients",
+      "Selected Pantone 186 C as the brand accent — specific enough to feel considered, institutional enough to feel trusted",
+      "Content strategy before visual design — ensured every page had a clear job to do before any design decisions were made"
+    ],
+    "outcome": "The resulting brand and web presence gave MPG a design identity that matched the quality of the work they were delivering. The design system was documented for internal use and adapted across print and digital deliverables. All work was developed with accessibility compliance built in from the ground up.",
+    "metrics": [
+      { "value": "3", "label": "Disciplines: Strategy, Design, Dev" },
+      { "value": "AA", "label": "WCAG accessibility standard" },
+      { "value": "2019", "label": "Delivery year" }
+    ],
+    "images": [
+      "/assets/images/mpg-1.jpg",
+      "/assets/images/mpg-2.jpg",
+      "/assets/images/mpg-3.jpg"
+    ],
+    "tags": ["Brand Identity", "Government", "Art Direction", "Content Strategy"],
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": 4,
+    "slug": "global-scout",
+    "title": "Global Scout",
+    "tagline": "A map-based intelligence app aggregating country data, current events, and multimedia",
+    "client": "US Government",
+    "year": "2021",
+    "category": "Product Design · Cartography · Content Strategy · Development",
+    "role": ["Lead Product Designer", "Cartographer", "Content Strategist"],
+    "heroImage": "/assets/images/gs-hero.jpg",
+    "thumbnail": "/assets/images/gs-thumb.jpg",
+    "accentColor": "#ffcf00",
+    "summary": "Global Scout is a map-based application that aggregates data from news sources and reporting to give users a single destination for country background information, current events, and multimedia. I led design, cartography, content strategy, and development for the platform. Content shown uses published articles from the Washington Post, World Factbook, and Wikipedia in place of restricted material.",
+    "problem": "Users needed a way to quickly orient themselves on a given country — pulling together background context, live reporting, and multimedia without jumping between disparate sources. The challenge was building an interface around a map canvas that remained informative without becoming overwhelming.",
+    "context": "This was a US Government project operating under NDA constraints, so the final deliverable used published third-party content to represent what the actual data layer would look like. The design work had to account for dense information and varied media types while keeping the map as the primary navigational metaphor.",
+    "approach": "I designed the application around the map as the entry point — selecting a country surfaces a structured view of that country's information rather than dropping users into a search results page. The information hierarchy prioritized background context first, then current reporting, then multimedia.\n\nThe cartography work involved customizing the map visual language to match the application's brand and ensure that geographic data didn't compete with the content overlay. Color, typography, and layer controls were all designed to keep the map readable at every zoom level.",
+    "keyDecisions": [
+      "Made the map the primary navigation surface — clicking a country is more intuitive than searching for one when the goal is geographic orientation",
+      "Designed a consistent content structure per country — users know what to expect when they arrive at any country view, regardless of how much data exists",
+      "Custom cartographic styling — kept the map visually consistent with the application brand rather than defaulting to a generic tile layer"
+    ],
+    "outcome": "Global Scout delivered a unified intelligence interface that replaced the need to navigate multiple disconnected sources. The map-first design made the application intuitive for users with varying levels of geographic familiarity. The platform was built with a content architecture that could accommodate expanding data sources over time.",
+    "metrics": [
+      { "value": "1", "label": "Map canvas, multiple data sources" },
+      { "value": "4", "label": "Services: Strategy, Design, Cartography, Dev" },
+      { "value": "2021", "label": "Delivery year" }
+    ],
+    "images": [
+      "/assets/images/gs-1.jpg",
+      "/assets/images/gs-2.jpg",
+      "/assets/images/gs-3.jpg"
+    ],
+    "tags": ["Product Design", "Cartography", "Government", "Data Visualization"],
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": 5,
+    "slug": "tillie",
+    "title": "Tillie",
+    "tagline": "Reimagining retail operations for small businesses — where local warmth meets modern SaaS",
+    "client": "Stealth",
+    "year": "2025",
+    "category": "Product Design · Product Management · Frontend Development",
+    "role": ["Product Designer", "Product Manager", "Creative Director", "Frontend Developer", "AI Prompt Engineer"],
+    "heroImage": "/assets/images/tillie-hero.jpg",
+    "thumbnail": "/assets/images/tillie-thumb.jpg",
+    "accentColor": "#f28915",
+    "summary": "Tillie is a modern, browser-based Point of Sale system designed for independent grocery markets and specialty food retailers. It simplifies daily retail operations through intuitive UX, robust inventory management, AI-assisted product ordering, and integrated analytics. I wore multiple hats on this project — leading product design, product management, creative direction, frontend development, and AI prompt engineering.",
+    "problem": "Small retailers often rely on outdated, expensive, or fragmented POS systems that fail to connect inventory control, vendor management, and sales analytics into a cohesive experience. Store owners needed a simple, touch-optimized POS that works on tablets and desktops, real-time inventory visibility to prevent over and under-stocking, integrated reporting for smarter decisions, and a system that scales affordably without enterprise-level complexity.",
+    "context": "Independent grocery markets and specialty food retailers operate in a space that enterprise POS vendors ignore and consumer tools under-serve. The goal was to build something that felt as approachable as a neighborhood market while being as capable as a modern SaaS platform — with Tillie's highland cow mascot as the humanizing anchor of the brand.",
+    "approach": "I approached this as a full product build — starting with a product brief that defined the core modules and their interaction model before any design work began. The five pillars were: POS checkout, inventory management, employee access, vendor and purchase order management, and analytics.\n\nThe design system was built around Nunito — a rounded, friendly typeface that carries the warmth of the brand — paired with a dark navy and amber palette that reads as professional without feeling clinical. Every component was designed for touch-first use on tablets while remaining fully functional on desktop.\n\nAI was integrated into the product at the inventory and ordering layer — using sales velocity, delivery lead time, and seasonality to surface predictive reorder recommendations rather than asking store owners to do that math themselves.",
+    "keyDecisions": [
+      "PIN-based employee login on shared terminals — faster than traditional login for high-turnover retail environments without sacrificing access control",
+      "AI-powered reorder suggestions rather than manual threshold rules — reduces the ongoing administrative burden of keeping inventory settings accurate",
+      "Highland cow mascot as a core brand element — gives the product a personality that differentiates it from cold enterprise tools and builds affinity with independent retailers",
+      "Built with Electron for offline desktop packaging — ensures the POS continues to function during network outages, which is critical for a retail checkout environment"
+    ],
+    "outcome": "Early testing with independent retailers showed a 30% faster checkout flow compared to legacy POS systems, a 50% reduction in manual reorder errors, and increased staff satisfaction with the simple interface and fast login experience. The roadmap continues with an expanded AI ordering engine, payment processor integrations, and a customer-facing display for loyalty and communication.",
+    "metrics": [
+      { "value": "30%", "label": "Faster checkout vs. legacy POS" },
+      { "value": "50%", "label": "Reduction in manual reorder errors" },
+      { "value": "5", "label": "Core modules shipped in v1" }
+    ],
+    "images": [
+      "/assets/images/tillie-1.jpg",
+      "/assets/images/tillie-2.jpg",
+      "/assets/images/tillie-3.jpg"
+    ],
+    "tags": ["Product Design", "POS", "Retail Tech", "AI", "SaaS"],
+    "featured": true,
+    "order": 5
+  }
+]

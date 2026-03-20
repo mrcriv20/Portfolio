@@ -1,0 +1,41 @@
+.page-header {
+  border-bottom: 1px solid var(--color-border);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    max-width: 800px;
+  }
+
+  &__title {
+    em {
+      font-style: italic;
+      color: var(--color-accent);
+    }
+  }
+
+  &__sub {
+    max-width: 560px;
+  }
+}
+
+.work-grid {
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--space-6);
+
+    app-case-card {
+      grid-column: span 12;
+
+      &:not(:first-child) {
+        grid-column: span 6;
+
+        @media (max-width: 768px) {
+          grid-column: span 12;
+        }
+      }
+    }
+  }
+}

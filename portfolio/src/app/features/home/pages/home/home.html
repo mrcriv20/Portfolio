@@ -1,0 +1,109 @@
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg-grid" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__content" appFadeUp [appFadeUpDelay]="0">
+        <span class="label hero__label">Lead Product Designer · Head of Design</span>
+        <h1 class="display-1 hero__headline">
+          Design that moves<br>
+          <em>products forward.</em>
+        </h1>
+        <p class="body-lg hero__sub">
+          I work at the intersection of product strategy, systems design, and
+          engineering — building experiences that earn trust and drive real outcomes
+          for enterprise teams and government agencies.
+        </p>
+        <div class="hero__actions">
+          <a routerLink="/work" class="btn btn--primary">See the work</a>
+          <a routerLink="/about" class="btn btn--ghost">About me</a>
+        </div>
+      </div>
+      <div class="hero__aside" appFadeUp [appFadeUpDelay]="150">
+        <div class="hero__stat-card">
+          <span class="hero__stat-value">10+</span>
+          <span class="hero__stat-label">Years shipping product</span>
+        </div>
+        <div class="hero__stat-card">
+          <span class="hero__stat-value">4</span>
+          <span class="hero__stat-label">Enterprise platforms led</span>
+        </div>
+        <div class="hero__stat-card">
+          <span class="hero__stat-value">Gov</span>
+          <span class="hero__stat-label">Federal agency experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED WORK -->
+<section class="section featured">
+  <div class="container">
+    <div class="featured__header" appFadeUp>
+      <app-section-header
+        label="Selected Work"
+        title="Projects built to last"
+        subtitle="From greenfield platforms to government systems — design leadership across the full stack of a product."
+      ></app-section-header>
+      <a routerLink="/work" class="btn btn--text">
+        View all work <span class="arrow">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="featured__grid">
+      <app-case-card
+        *ngFor="let study of featured; let i = index"
+        [study]="study"
+        [large]="i === 0"
+        appFadeUp
+        [appFadeUpDelay]="i * 100"
+      ></app-case-card>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills">
+  <div class="container">
+    <div class="skills__inner">
+      <div class="skills__left" appFadeUp>
+        <app-section-header
+          label="Capabilities"
+          title="Design leadership across the full stack"
+        ></app-section-header>
+        <p class="body-lg skills__desc">
+          I don't just design screens. I define how products should work, how teams
+          should operate, and how design creates measurable value — from first sketch
+          to shipped product.
+        </p>
+        <a routerLink="/about" class="btn btn--text">
+          More about my approach <span class="arrow">&#8594;</span>
+        </a>
+      </div>
+      <div class="skills__grid">
+        <div
+          class="skill-item"
+          *ngFor="let skill of skills; let i = index"
+          appFadeUp
+          [appFadeUpDelay]="i * 80"
+        >
+          <span class="skill-item__label">{{ skill.label }}</span>
+          <span class="skill-item__desc">{{ skill.desc }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip">
+  <div class="container">
+    <div class="cta-strip__inner" appFadeUp>
+      <p class="display-3 cta-strip__text">
+        Building something that matters?
+      </p>
+      <a routerLink="/contact" class="btn btn--primary">Let's talk</a>
+    </div>
+  </div>
+</section>

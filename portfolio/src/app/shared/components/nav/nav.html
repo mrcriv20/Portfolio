@@ -1,0 +1,37 @@
+<header class="nav" [class.nav--scrolled]="scrolled" [class.nav--open]="menuOpen">
+  <div class="nav__inner container">
+    <a routerLink="/" class="nav__logo" aria-label="Mike Crivellaro — Home">
+      <span class="nav__logo-name">Mike Crivellaro</span>
+      <span class="nav__logo-title">Head of Product Design</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Main navigation">
+      <a
+        *ngFor="let link of navLinks"
+        [routerLink]="link.path"
+        class="nav__link"
+        [class.nav__link--active]="activeRoute.startsWith(link.path)"
+      >{{ link.label }}</a>
+    </nav>
+
+    <button
+      class="nav__hamburger"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="menuOpen"
+      aria-label="Toggle navigation"
+    >
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <nav class="nav__mobile" [class.nav__mobile--open]="menuOpen" aria-label="Mobile navigation">
+    <a
+      *ngFor="let link of navLinks"
+      [routerLink]="link.path"
+      class="nav__mobile-link"
+    >{{ link.label }}</a>
+  </nav>
+</header>
+
+<div class="nav__spacer"></div>
