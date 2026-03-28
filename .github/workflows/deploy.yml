@@ -35,6 +35,9 @@ jobs:
         run: npm run build -- --base-href "/Portfolio/"
         working-directory: portfolio
 
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp portfolio/dist/portfolio/browser/index.html portfolio/dist/portfolio/browser/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
